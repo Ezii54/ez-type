@@ -19,7 +19,7 @@ export default function Home() {
             document.body.removeChild(textArea);
             setCopy(true);
         } catch {
-            alert("Gagal menyalin teks!");
+            alert("Failed!");
         }
     };
 
@@ -34,7 +34,7 @@ export default function Home() {
     return (
         <div className="flex flex-col gap-5 p-5">
             <div className="py-1 font-mono text-xl text-center text-blue-500 bg-gray-900 rounded-lg shadow-lg shadow-black">
-                ezType
+                ez-Type
             </div>
 
             <textarea
